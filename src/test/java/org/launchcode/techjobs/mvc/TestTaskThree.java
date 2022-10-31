@@ -82,7 +82,7 @@ public class TestTaskThree {
     }
 
     /*
-    * Checks that displaySearchResults calls JobData.findAll when apppropriate
+    * Checks that displaySearchResults calls JobData.findAll when appropriate
     * */
     @Test
     public void testDisplaySearchResultsCallsFindAll(@Mocked JobData jobData) throws NoSuchMethodException, ClassNotFoundException, InvocationTargetException, IllegalAccessException {
